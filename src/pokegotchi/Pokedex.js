@@ -11,7 +11,10 @@ import Choice from './Choice'
 
 
 export default function Pokedex(props) {
+
   const [isLoading, setIsLoading] = useState(true);
+
+  
   const [PokegotchiList, setPokegotchiList] = useState([]);
   const [Error, setHasError] = useState([]);
 
@@ -47,7 +50,6 @@ export default function Pokedex(props) {
 
   useEffect(() => {
     setTimeout(function () {
-      console.log("I've set a 3 second delay to allow everything to load");
       setIsLoading(false);
     }, 3000);
   }, []);
@@ -91,7 +93,7 @@ export default function Pokedex(props) {
   );
 
   return (
-    <div>
+    <div >
       <img className="tagline" src="img/pick.png"></img>
       <div className="container">{displayFetchedData}</div>
     </div>

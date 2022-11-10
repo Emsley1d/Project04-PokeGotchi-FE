@@ -40,11 +40,13 @@ export default function Home(props) {
         {!props.isAuth ?
              <Box className='home-box'>   
                 <Box>
+                    <br></br>
+                    <br></br>
                     <Button variant='contained'><Link to='/signin' className="link">Sign In Here</Link></Button>
                 </Box>
                 <Box>
-                    <Typography variant="h7">
-                        <Link to='/signup' className="link blue-text">Not created an account yet? Click here to sign up!</Link>
+                    <Typography variant="h6">
+                        <Link to='/signup' className="link blue-text">Not created an account yet?<br></br>Click here to sign up!</Link>
                     </Typography>
                 </Box> 
             </Box>
@@ -54,7 +56,7 @@ export default function Home(props) {
                     { pG ?
                         <>
                         <Box>
-                            <Typography variant='h7'>
+                            <Typography variant='h6'>
                                 <p className='blue-text'>
                                 Hint: Click on {pG.name} to say hello!
                                 </p>
