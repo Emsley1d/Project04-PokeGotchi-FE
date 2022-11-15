@@ -31,9 +31,9 @@ The brief for the project stipulated the below:
 - Implement token-based authentication; including the ability for a user to sign up, log in and log out.
 - Implement authorisation by restricting CUD data functionality to authenticated users. Navigation should also respond to the login state of the user.
 - Have a well-scoped feature-set. Full CRUD data operations are not required if one or more of the following are included:
-  - Consume data from a third-party API.
-  - Implement additional functionality if the user is an admin.
-  - Utilise multi-user, real-time communications.
+  - Consume data from a third-party API
+  - Implement additional functionality if the user is an admin
+  - Utilise multi-user, real-time communications
   - Node
 #
 
@@ -276,7 +276,7 @@ As it was a 3 second timer I wanted to include a message to show the user that s
 
 Once the timer had span for 3 seconds the Pokemon Index then appeared as below:
 
-![](RackMultipart20221115-1-5gi4ak_html_74b2b5b227b63931.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2015.55.26.png)
 #
 
 ## Challenges:
