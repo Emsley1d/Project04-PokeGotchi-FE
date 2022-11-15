@@ -3,9 +3,9 @@
 
 ## Description:
 
-This was my fourth and final project for the Software Engineering Immersive course run by General Assembly. The idea was to create a Capstone project that incorporated all that we have learnt in the previous 11 weeks of the course. The project was created in one week and was a team effort created with two others; Ashish Singh and Harry Philpotts.
+This was my fourth and final project for the Software Engineering Immersive course run by General Assembly. The idea was to create a Capstone project that incorporated all that we have learnt in the previous 11 weeks of the course. The project was created in one week and was a team effort created with two others; [Ashish Singh](https://github.com/EHCarr) and [Harry Philpotts](https://github.com/hphilpotts).
 
-## Deployment link
+## Deployment link:
 
 Our project can be viewed by clicking this link [https://project04pokegotchi.herokuapp.com/](https://project04pokegotchi.herokuapp.com/)
 #
@@ -50,7 +50,7 @@ Although we discussed allowing users to upload their own photos or to potentiall
 
 Although Harry created a detailed wireframe for each page of the website I was keen to communicate my idea for the main PokeGotchi page. I created the below mock up using a Pokemon card as the base:
 
-![](RackMultipart20221115-1-5gi4ak_html_df8ad647418f35d.png)
+![]()
 
 Harry and Ashish were happy with my idea so we decided to implement it and use the Pokemon card design for the basis of our website.
 #
