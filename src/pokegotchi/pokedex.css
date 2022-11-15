@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-container {
+    width: auto 0;
+    display: inline-grid;
+    margin-top: 2em;
+    grid-template-columns: auto;   
+}
+
+.pdex-card-box {
+    height: 10%;
+}
+
+.pdex-card-outer {
+    background-color: #FFDE00;
+    height: 37vh;
+    display: flex;
+    margin-top: 2%;
+    border-radius: 1em;
+    min-height: 5em;
+    max-height: 13em;
+    max-width: 9em;
+    position: relative;
+    box-shadow: 5px 5px 5px rgb(162, 162, 162);
+    margin: 0.3em;
+}
+
+.pdex-card-inner {
+    background-image: url("https://bit.ly/3srhQPW");
+    background-size: cover;
+    margin: 4%;
+    width: 100%;
+    height: auto;
+    padding: 4%;
+}
+
+
+.pdexName {
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    color: #3B4CCA;
+    text-shadow: 0.03em 0.03em 0.05em darkgray;
+    font-weight: bolder;
+    text-shadow: 0.03em 0.03em 0.05em darkgray;
+} 
+
+.pdexImg {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 3px 3px 3px rgb(162, 162, 162);
+}
+
+.loading {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.tagline {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    max-width: 16em;
+    min-width: 16em;
+}
+
+.container {
+    justify-content: center;
+}
