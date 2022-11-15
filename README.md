@@ -262,15 +262,15 @@ What with pulling 453 individual items from the Pokemon API (151 of which being 
 
 I set State to isLoading:
 
-![](RackMultipart20221115-1-5gi4ak_html_d03e4a12f5a32b38.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2015.39.36.png)
 
 Set a timer for 3 seconds:
 
-![](RackMultipart20221115-1-5gi4ak_html_d617e629060bd991.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2015.40.11.png)
 
 And then called isLoading before loading the fetched data:
 
-![](RackMultipart20221115-1-5gi4ak_html_fd0116d6ec96cf28.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2015.40.26.png)
 
 As it was a 3 second timer I wanted to include a message to show the user that something was effectively happening behind the scenes I played on the Pokemon slogan of "Gotta Catch Them All!":
 
