@@ -1,19 +1,21 @@
-# **Project 04 - PokeGotchi**
-#
+# Project 04 - PokeGotchi
 
-**Description:**
+
+## Description:
 
 This was my fourth and final project for the Software Engineering Immersive course run by General Assembly. The idea was to create a Capstone project that incorporated all that we have learnt in the previous 11 weeks of the course. The project was created in one week and was a team effort created with two others; Ashish Singh and Harry Philpotts.
 
-# **Deployment link:**
+## Deployment link
 
 Our project can be viewed by clicking this link [https://project04pokegotchi.herokuapp.com/](https://project04pokegotchi.herokuapp.com/)
+#
 
-# **Technologies Used:**
+## Technologies Used:
 
 I spent the two weeks prior to creating the project learning React which together with our previous experience of using MongoDB/Mongoose, Express and Node allowed us to create a MERN stack application.
+#
 
-**Brief** :
+## Brief:
 
 The brief for the project stipulated the below:
 
@@ -33,24 +35,27 @@ The brief for the project stipulated the below:
   - Implement additional functionality if the user is an admin.
   - Utilise multi-user, real-time communications.
   - Node
+#
 
-**Planning:**
+## Planning:
 
 Harry explained that during a piece of Homework for the course he had the idea of creating a [Tamagotchi](https://en.wikipedia.org/wiki/Tamagotchi) App; essentially a virtual pet you can interact with. The piece of Homework in question was to recreate a simple Pokemon battle game: ​​[https://pokemonbattle.alexanderghose.repl.co/](https://pokemonbattle.alexanderghose.repl.co/)
 
 We all liked Harry's idea and felt it was achievable given the brief and the timeframe provided; to such an extent we didn't really discuss any other ideas.
 
 Although we discussed allowing users to upload their own photos or to potentially convert their photos to Pixel art I had the idea of creating a Pokemon themed Tamagotchi. We knew from the aforementioned homework that the Pokemon API existed and provided all the content we would need. I explained it would also give us an aesthetic to work with. Pokemon as a brand had its own unique style; a recognisable font, colour scheme and art style and we could incorporate this into our application.
+#
 
-**Wireframe:**
+## Wireframe:
 
 Although Harry created a detailed wireframe for each page of the website I was keen to communicate my idea for the main PokeGotchi page. I created the below mock up using a Pokemon card as the base:
 
 ![](RackMultipart20221115-1-5gi4ak_html_df8ad647418f35d.png)
 
 Harry and Ashish were happy with my idea so we decided to implement it and use the Pokemon card design for the basis of our website.
+#
 
-**User Stories:**
+## User Stories:
 
 I then worked on user stories and wrote the below:
 
@@ -82,20 +87,23 @@ As the user's PokeGochi was such a fundamental part of the interactivity of the 
 - As a PokeGochi I want my HP to drop over time as I age
 
 I added the above stories to our Trello Board (created by Ashish) so we could keep track of their development.
+#
 
-**Division of Work:**
+## Division of Work:
 
 We discussed the division of work and decided that to begin with it would be beneficial to have two people work Back End and one Front End. However we all agreed that later on during the development to move more weight to the Front End. I felt more confident with the Back End and Express so opted to start there.
+#
 
-# **Build/Code Process:**
+## Build/Code Process:
 
-**Step 1:**
+### Step 1:
 
 Ashish created both Front and Back End repositories which I forked. I then made a minor change to confirm we were successfully set up to push and create pull requests.
 
 Having worked with Ashish on my second project (Rate My Cat) we learnt that it would be easier to set up and connect to a MongoDB database from the off so that we all shared the same date - that way it would be easier to troubleshoot and test the project as we went along. Ashish shared his screen and we all created and connected to the MongoDB database together. One we were all connected to the repos and database we started to code.
 
-**Step 2:**![](RackMultipart20221115-1-5gi4ak_html_e45c31a23c7bc6ec.png)
+### Step 2:
+![](RackMultipart20221115-1-5gi4ak_html_e45c31a23c7bc6ec.png)
 
 Working in the Back End I created all the basic folders; these being controllers, models, routes and views. I populated each folder with the relevant files and fields based on the ERD previously created.
 
@@ -107,7 +115,7 @@ And the model file for the User:
 
 ![](RackMultipart20221115-1-5gi4ak_html_b787268ba0d0ccee.png)
 
-**Step 3:**
+### Step 3:
 
 I then focused on connecting the Pokemon API ([https://pokeapi.co/api/v2/pokemon/](https://pokeapi.co/api/v2/pokemon/)) to the PokeGotchi controllers file. With over 900 Pokemon it would be silly to try and fetch data for all; especially as we could demonstrate the functionality of our application with only a handful. Although still a large number I settled on fetching data for the original 151 Pokemon from the 1st generation. This would also help us achieve the Pokemon aesthetic we were after and the 'well-styled interactive front-end' stipulated in the brief.
 
@@ -131,7 +139,7 @@ I managed to log the name, species and sprite (image) of 1 of the Pokemon in the
 
 At this point we weren't sure how we would allow the User to select the Pokemon of their choice; be it by iterating through all 151 Pokemon to allow the User to choose or by accepting an inputted value (either the numerical Pokemon ID or name) from the User and then fetching those specific Pokemon details via an Axios get request.
 
-**STEP 4:**
+### Step 4:
 
 Having reached a logical stopping point and with the weekend looming I thought it best that we link the Front End and Back End together before parting; especially as we knew Harry was unable to work on the project again until Monday.
 
@@ -155,7 +163,7 @@ After updating the above we then received a timeout error so we knew a user was 
 
 After attempting to create new users the timeout error no longer appeared and the new users were saved into the MongoDB database.
 
-**STEP 5:**
+### Step 5:
 
 I knew that Harry (who was working on the Front End) was busy over the weekend and unable to contribute any further time to the project until Monday. He was also having one or two issues with the styling and told us to feel free to work on it.
 
@@ -171,7 +179,7 @@ I carried these changes across to the Signin.js and Signup.js user files so that
 
 ![](RackMultipart20221115-1-5gi4ak_html_2eff281ab1c1980b.png) ![](RackMultipart20221115-1-5gi4ak_html_2b1e3aa06c87a2bc.png)
 
-**STEP 6:**
+### Step 6:
 
 I set about creating a Pokemon Index (or a 'Pokedex' as it's known in the films/games); a list of Pokemon for the user to choose from. Whilst researching the best way to do so I came across [https://github.com/hideyuk1/react-kanto-pokedex](https://github.com/hideyuk1/react-kanto-pokedex) on GitHub. An existing Pokedex that fetched a Pokemon's name, id number, type and image to create the below:
 
@@ -245,7 +253,7 @@ So the final result appeared as below:
 
 ![](RackMultipart20221115-1-5gi4ak_html_6a5e4aa75d050e01.png)
 
-**STEP 7.**
+### Step 7.
 
 Harry discovered that the loading of the 'My PokeGotchi' component was very clunky and the separate pieces loaded at different speeds. He discovered the Circular Progress icon (\<CircularProgress /\>) in the MUI library and implemented this on the My PokeGotchi component so everything could load in the background before populating in the browser.
 
@@ -267,27 +275,32 @@ As it was a 3 second timer I wanted to include a message to show the user that s
 
 Once the timer had span for 3 seconds the Pokemon Index then appeared as below:
 
-# ![](RackMultipart20221115-1-5gi4ak_html_74b2b5b227b63931.png)
+![](RackMultipart20221115-1-5gi4ak_html_74b2b5b227b63931.png)
+#
 
-# **Challenges:**
+## Challenges:
 
 - Displaying API results in browser! This is something that I need to work on and practice. It took far longer to display the results in the browser (after having confirmed the API worked by console logging the results) than I would like to admit. I'm keen to create a new project of my own that will draw heavily on multiple APIs so I can practise.
+#
 
-# **Wins:**
+## Wins:
 
 - I think the overall design and layout of the website was a big win; it was important that the two main pages of the website ('My PokeGotchi' and the PokeGotchi index) looked the part and I managed to get them how I wanted.
 - Although only a small touch I was very happy with the 'isLoading' state added to the PokeGotchi page. It improved the overall feel and experience of the page and hid the somewhat painful loading of all 151 Pokemon behind a 3 second delay.
+#
 
-# **Key Learnings/Takeaways:**
+## Key Learnings/Takeaways:
 
 - Prior to the project I wasn't particularly confident with React and struggled to grasp the logic behind it. Having completed the project my knowledge and understanding has grown significantly however I would still like to spend more time with React and MERN applications in general. My priority after the course will be to concentrate on creating my own React application before then creating another MERN application.
 - To focus and test one function at a time. Although this is something I practised in previous projects I felt at times during this project I started to run anyway with things and get ahead of myself. When I reeled myself back in and focused on each small part of a function and tested it as I worked I felt like I regained control of things and my productivity rate increased.
+#
 
-**Bugs:**
+## Bugs:
 
 - The play/clean/feed and heal scores can run into minus figures; ideally they should stop at 1 to allow you to interact with the PokeGotchi to restore the figures and their HP.
+#
 
-**Future Improvements:**
+## Future Improvements:
 
 - To resolve the above bug.
 - To include a degree of animation when the user views and interacts with their PokeGotchi.
