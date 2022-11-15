@@ -50,7 +50,7 @@ Although we discussed allowing users to upload their own photos or to potentiall
 
 Although Harry created a detailed wireframe for each page of the website I was keen to communicate my idea for the main PokeGotchi page. I created the below mock up using a Pokemon card as the base:
 
-![]()
+![](./readme-images/Screenshot%202022-11-15%20at%2014.28.03.png)
 
 Harry and Ashish were happy with my idea so we decided to implement it and use the Pokemon card design for the basis of our website.
 #
@@ -103,13 +103,13 @@ Ashish created both Front and Back End repositories which I forked. I then made 
 Having worked with Ashish on my second project (Rate My Cat) we learnt that it would be easier to set up and connect to a MongoDB database from the off so that we all shared the same date - that way it would be easier to troubleshoot and test the project as we went along. Ashish shared his screen and we all created and connected to the MongoDB database together. One we were all connected to the repos and database we started to code.
 
 ### Step 2:
-![](RackMultipart20221115-1-5gi4ak_html_e45c31a23c7bc6ec.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2014.28.26.png)
 
 Working in the Back End I created all the basic folders; these being controllers, models, routes and views. I populated each folder with the relevant files and fields based on the ERD previously created.
 
 For example the model file for the PokeGotchi:
 
-![](RackMultipart20221115-1-5gi4ak_html_7e57f57f1b7748f9.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2014.29.37.png)
 
 And the model file for the User:
 
