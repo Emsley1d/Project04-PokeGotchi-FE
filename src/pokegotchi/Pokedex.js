@@ -99,3 +99,6 @@ export default function Pokedex(props) {
     </div>
   );
 }
+
+
+
