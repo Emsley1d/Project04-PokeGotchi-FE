@@ -103,7 +103,6 @@ Ashish created both Front and Back End repositories which I forked. I then made 
 Having worked with Ashish on my second project (Rate My Cat) we learnt that it would be easier to set up and connect to a MongoDB database from the off so that we all shared the same date - that way it would be easier to troubleshoot and test the project as we went along. Ashish shared his screen and we all created and connected to the MongoDB database together. One we were all connected to the repos and database we started to code.
 
 ### Step 2:
-![](./readme-images/Screenshot%202022-11-15%20at%2014.28.26.png)
 
 Working in the Back End I created all the basic folders; these being controllers, models, routes and views. I populated each folder with the relevant files and fields based on the ERD previously created.
 
